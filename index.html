@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IR </title>
+</head>
+<body>
+
+    <form action="">
+        <p>Salario Base</p>
+        <input type="text" id="salario_base">
+        <p>porcentaje de retencion IR</p>
+        <input type="text" id="retencion_ir" readonly>
+        <p>INSS</p>
+        <input type="text" id="inss" readonly>
+        <p>IR</p>
+        <input type="text" id="ir" readonly>
+        <p>Salario Neto</p>
+        <input type="text" id="salario_neto" readonly>
+        <p>
+        <input type="button"  class="btn" onclick="calculo()" value="Calcular">
+
+    </form>    
+    <script src="ir.js"> </script>
+</body>
+</html>
